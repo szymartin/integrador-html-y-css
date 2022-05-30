@@ -192,8 +192,9 @@
 .marcas_images{
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
-    margin-bottom: 20px;
+    justify-content: center;
+    margin: px;
+    gap: 20px;
 }
 .marca{
         display: flex;
@@ -207,8 +208,10 @@
         height: 120px;
         border-radius: 1rem;
         cursor: pointer;     
-        margin-bottom: 15px;   
-}
+        margin-bottom: 15px;
+        align-self: center;   
+
+    }
 
 .marca img{
     width: 50%;
@@ -222,7 +225,6 @@
     background-color: rgb(194, 46, 46);
     color: red;
     height: 8px;
-    margin-top: ;
 }
 /*productos*/
 .list__productes{
@@ -306,10 +308,6 @@ margin: 20px;
 .news__title i{
     font-size: 22px;
     margin-left: 3px;
-}
-.box__email{
-    width: 82vh;
-    
 }
 .email{
     padding: 15px;
