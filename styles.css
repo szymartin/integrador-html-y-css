@@ -22,7 +22,7 @@
     background-color: rgb(194, 46, 46);
     color: red;
     height: 8px;
-    margin-top: 10px;
+    margin-top: -120px;
 }
   /*navbar*/
   header{
@@ -192,8 +192,8 @@
 .marcas_images{
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
-    margin-top: 50px;
+    gap: 15px;
+    margin-bottom: 20px;
 }
 .marca{
         display: flex;
@@ -202,12 +202,12 @@
         justify-content: center;
         align-items: center;
         box-shadow: 0 0 30px 2px rgba(0, 0, 0, 0.3);
-        margin-top: 20px;
+        margin-top: 40px;
         width: 150px;
         height: 120px;
         border-radius: 1rem;
-        margin: 20px;
-        cursor: pointer;        
+        cursor: pointer;     
+        margin-bottom: 15px;   
 }
 
 .marca img{
@@ -218,7 +218,12 @@
     transition: 0.5s;
     background-color: rgba(44, 3, 27, 0.719);
 }
-
+.line__sep__2{
+    background-color: rgb(194, 46, 46);
+    color: red;
+    height: 8px;
+    margin-top: ;
+}
 /*productos*/
 .list__productes{
     margin-top: 2rem;
@@ -308,7 +313,7 @@ margin: 20px;
 }
 .email{
     padding: 15px;
-    width: 80%;
+    width: 18rem;
     height: 50px;
     margin-top: 6px;
     border-radius: 0.5rem;
@@ -322,15 +327,15 @@ margin: 20px;
     margin-top: 6px;
     border-radius: 0.5rem;
     border: none;
-    background-color: rgb(255, 255, 255);
     cursor: pointer;
+    background-color: rgb(255, 255, 255);
     color: #300707;
 }
 /*contact*/
 .contact{
     
-    margin-top: 2rem;
-    height: 30rem;
+    margin-top: 3rem;
+    height: 24rem;
 
 }
 .contact__container{
@@ -340,15 +345,14 @@ margin: 20px;
     align-items: center;
 }
 .item__contact{
-    gap: 30px;
-    padding: 25px;
+    gap: 10px;
+    padding: 10px;
     font-size: 25px;
-    margin: 20px;
 }
 .social__media{
     display: flex;
     justify-content: center;
-    gap: 10px;
+    margin-top: 30px;
 }
 .media__contact{
     font-size: 50px;
