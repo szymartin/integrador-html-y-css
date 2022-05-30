@@ -315,7 +315,8 @@ margin: 20px;
     height: 50px;
     margin-top: 6px;
     border-radius: 0.5rem;
-    border: none;
+    border: 0;
+    outline: none;
 }
 .submit{
     position: absolute;
