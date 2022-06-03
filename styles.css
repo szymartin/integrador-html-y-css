@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;   
+    text-decoration: none;  
   } 
   body{
       font-family: 'Poppins',sans-serif;
@@ -58,14 +58,15 @@
   top: 100px;
   background-color: rgb(5, 8, 12);
   text-align: center;
-  transition: all ease .8s;
+  transition: all ease 0.6s;
   z-index: 1;
 }
 .toggle li{
   display: none;
   line-height: 30px;
   margin: 50px;
-  transition: all ease .8s;
+  transition: all ease 2s;
+  animation-delay: 5s;
 }
 .toggle li a{
   color: #fafafa;
@@ -93,7 +94,7 @@
 /*SLIDER*/
 .slider {
     overflow: hidden;
-    height: 35vh;
+   height: 35vh;
   }
 .slider figure {
     display: flex;
@@ -370,7 +371,7 @@ margin: 20px;
     
 }
 .line__footer{
-    background-color: #300707;
+    background-color: #971d1d;
     height: 5px;
 
 }
@@ -385,6 +386,170 @@ margin: 20px;
 .text__final{
     color: #fafafa;
     text-align: center;
+}
+
+@media (min-width: 1000px){
+ /*navbar*/
+ .img__logo{
+     margin-left: 10px;
+ }
+.menu{
+    height: 100px;
+}
+.btn__i{
+    display: none;
+}
+.toggle{
+    display: flex;
+    position: relative;
+    height: 100px;
+    top: 0;
+    background: none;
+    transition: none;
+    text-align: end;
+    justify-content: end;
+    align-items: center;
+}
+.toggle li{
+    display: inline-block;
+  margin: 15px;
+  transition: none;
+}
+    /*slider*/
+    .slider {
+        overflow: hidden;
+        height: 50vh;
+        margin-bottom: 80px;
+      }
+      .slider figure img {
+        width: 20%;
+        height: 42vh;
+      }
+      /*services card*/
+      .services{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .services__info h1{
+        font-weight: var(--bold);
+        margin-top: 80px;
+        font-size: 50px;
+    }
+    .services__info p{
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: var(--medium);
+    }
+    .marcas_images{
+        flex-wrap: nowrap;
+        margin: 60px;
+        gap: 80px;
+
+    }
+    .marca{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            margin-top: 40px;
+            width: 240px;
+            height: 180px;
+            align-self: center;   
+        }
+    /*productes card*/
+    .list__productes{
+        margin-top: 2rem;
+    }
+    .productes__container h2{
+        font-size: 35px;
+    }
+    .productes__item{
+        display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      margin-top: 4rem;
+    }
+    .productes{
+        display: flex;
+      flex-direction: column;
+      width: 220px;
+      height: 200px; 
+      margin: 50px;
+      margin-top: 10px;
+    }
+    .productes i{
+        font-size: 80px;
+    
+    }
+    .productes p{
+        margin: 1px;
+        font-size: 20px;
+        text-align: center;
+    }
+/*newsletter*/
+.news__title h4{
+    margin-top: 60px;
+    font-size: 20px;
+    font-weight: var(--extralight);
+    text-align: center;
+}
+.news__title h1{
+font-family: 'Trebuchet MS', sans-serif;
+font-size: 40px;
+margin: 40px;
+}
+.news__title p{
+    font-size: 22px;
+    margin:18px;
+}
+.box__email{
+    display: flex;
+    flex-direction: row-reverse;
+   
+}
+.email{
+    
+    padding: 15px;
+    width: 30rem;
+    height: 50px;
+    margin-top: 6px;
+    border-radius: 0.5rem;
+    border: 0;
+    outline: none;
+}
+.submit{
+    width: 10%;
+}
+/*contact*/
+.contact{
+    
+    margin-top: 3rem;
+    height: 24rem;
 
 }
+.contact__container{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item__contact{
+    gap: 10px;
+    padding: 15px;
+    font-size: 25px;
+    margin: 15px;
+}
+.social__media{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.media__contact{
+    font-size: 50px;
+    margin:10px;
+    cursor: pointer;
+}
+
+      
+}
+
 
