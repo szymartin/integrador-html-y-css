@@ -46,7 +46,7 @@
 .btn__i{
     font-size: 25px;
     color: #fff;
-    margin-right: 20px;
+    margin-left: 20px;
     cursor: pointer;
 }
 .toggle{
@@ -325,11 +325,12 @@ margin: 20px;
     width: 15%;
     margin-left: -30px;
     margin-top: 6px;
-    border-radius: 0.5rem;
+    border-radius: rem;
     border: none;
     cursor: pointer;
-    background-color: rgb(255, 255, 255);
-    color: #300707;
+    background-color: #830e0e;
+    color: #fafafa;
+    text-transform: uppercase;
 }
 /*contact*/
 .contact{
