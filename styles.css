@@ -387,6 +387,60 @@ margin: 20px;
     color: #fafafa;
     text-align: center;
 }
+/*sign up*/
+.login__body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    background: rgb(2,0,36);
+background: linear-gradient(257deg, rgba(2,0,36,1) 0%, rgba(236,6,9,1) 50%, rgba(2,0,36,1) 100%);
+}
+.box__container{
+    top: 50%;
+    left: 50%;
+    border: solid;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    text-align: center;
+    font-family: 'Poppins' sans-serif;
+}
+.box__container h2{
+margin-top: 20px;
+text-align: center;
+font-size: 30px;
+}
+
+.form__login{
+    padding: 30px;
+    margin-top: -15px;
+}
+.data__account input{
+    margin: 15px;
+    margin-left:-5px ;
+    width: 95%;
+    outline: none;
+    cursor: pointer;
+}
+.iniciar button{
+    margin-top: 15px;
+    width: 45%;
+    height: 25px;
+    background-color: #463d7a;
+    text-transform: uppercase;
+    outline: none;
+    border: rgb(233, 233, 233);
+    cursor: pointer;
+}
+.iniciar a{
+    color: #fafafa;
+}
 
 @media (min-width: 1000px){
  /*navbar*/
@@ -547,9 +601,7 @@ margin: 40px;
     font-size: 50px;
     margin:10px;
     cursor: pointer;
-}
-
-      
+}     
 }
 
 
