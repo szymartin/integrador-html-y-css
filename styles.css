@@ -22,7 +22,7 @@
     background-color: rgb(194, 46, 46);
     color: red;
     height: 8px;
-    margin-top: -100px;
+    margin-top: -150px;
 }
   /*navbar*/
   header{
@@ -484,6 +484,7 @@ font-size: 30px;
         background-color: rgb(194, 46, 46);
         color: red;
         height: 8px;
+        margin-top: -50px;
     }
       /*services card*/
       .services{
@@ -611,12 +612,16 @@ margin: 40px;
 }     
 }
 @media (min-width: 481px){
+    .slider {
+        overflow: hidden;
+       height: 45vh;
+      }
       /*line separacion*/
   .line__sep{
     background-color: rgb(194, 46, 46);
     color: red;
     height: 8px;
-    margin-top: -20px;
+    margin-top: -100px;
 }
 }
 
