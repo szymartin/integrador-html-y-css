@@ -22,7 +22,7 @@
     background-color: rgb(194, 46, 46);
     color: red;
     height: 8px;
-    margin-top: -120px;
+    margin-top: -100px;
 }
   /*navbar*/
   header{
@@ -194,7 +194,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: px;
+    margin: 10px;
     gap: 20px;
 }
 .marca{
@@ -443,7 +443,7 @@ font-size: 30px;
     color: #fafafa;
 }
 
-@media (min-width: 1000px){
+@media (min-width: 1025px){
  /*navbar*/
  .img__logo{
      margin-left: 10px;
@@ -474,12 +474,17 @@ font-size: 30px;
     .slider {
         overflow: hidden;
         height: 50vh;
-        margin-bottom: 80px;
+        margin-bottom: 0px;
       }
       .slider figure img {
         width: 20%;
         height: 42vh;
       }
+      .line__sep{
+        background-color: rgb(194, 46, 46);
+        color: red;
+        height: 8px;
+    }
       /*services card*/
       .services{
         text-align: center;
@@ -509,7 +514,8 @@ font-size: 30px;
             width: 240px;
             height: 180px;
             align-self: center;   
-        }
+        }  /*line separacion*/
+        
     /*productes card*/
     .list__productes{
         margin-top: 2rem;
@@ -521,15 +527,15 @@ font-size: 30px;
         display: flex;
       flex-wrap: wrap;
       gap: 40px;
-      margin-top: 4rem;
+      margin-top: 1rem;
     }
     .productes{
         display: flex;
       flex-direction: column;
-      width: 220px;
+      flex-wrap: wrap;
+      width: 250px;
       height: 200px; 
-      margin: 50px;
-      margin-top: 10px;
+      margin: 60px;
     }
     .productes i{
         font-size: 80px;
@@ -603,6 +609,15 @@ margin: 40px;
     margin:10px;
     cursor: pointer;
 }     
+}
+@media (min-width: 481px){
+      /*line separacion*/
+  .line__sep{
+    background-color: rgb(194, 46, 46);
+    color: red;
+    height: 8px;
+    margin-top: -20px;
+}
 }
 
 
